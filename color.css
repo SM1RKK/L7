@@ -1,0 +1,47 @@
+html{
+    scroll-behavior:smooth;
+  }
+  
+  .text{
+    text-decoration:none;
+    background-color: red;
+    border-radius:5px 5px 5px 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .text:hover{
+    color:black;
+    background-color: green;
+    transition: 0.5s;
+  }
+  
+  .area{
+    height: 100vh;
+  }
+  
+  .area1{
+    margin-top: 100vh;
+    background-color: yellow;
+  }
+  
+  .area2{
+    margin-top: 100vh;
+    background-color: purple;
+  }
+  
+  .text1{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .ct{
+    width: 500px;
+    height: 500px;
+    outline: 1px solid red;
+    box-sizing: border-box;
+    padding: 50px;
+  }
